@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Monster Slayer Game</title>
+    <meta name="author" content="Željko Božičević" />
+  </head>
+  <body>
+    <div id="header"><h1>Monster Slayer Game</h1></div>
+    <div class="g-container">
+      <div class="g-item">
+        <h4>Monster Health</h4>
+        <div class="okvir"><div id="m-health"></div></div>
+      </div>
+      <div class="g-item">
+        <h4>Your Health</h4>
+        <div class="okvir"><div id="p-health"></div></div>
+      </div>
+      <div class="g-item" id="controls">
+        <button id="attack">ATTACK</button>
+        <button id="special">SPECIAL ATTACK</button><br />
+        <button id="heal">HEAL</button>
+        <button id="surrender">SURRENDER</button>
+      </div>
+      <div class="g-item hide" id="win">
+        <h2></h2>
+        <br /><button id="play">START NEW GAME</button>
+      </div>
+    </div>
+    <div class="log">
+      <h3>Battle Log:</h3>
+      <ul id="logList"></ul>
+    </div>
+  </body>
+</html>
